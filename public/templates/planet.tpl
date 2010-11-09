@@ -71,7 +71,7 @@
 
    <div class="menu">
     <fieldset>
-     <legend>Search Planet PEAR</legend>
+     <legend>Search <?php echo PROJECT_NAME_HR; ?></legend>
      <form onsubmit="niceURL(); return false;" name="search" method="get" action="/" id="search">
       <input id="searchtext" type="text" name="search" /><input class="submit" type="submit" value="Go" />
      </form><a id="searchbarLink" href="javascript:addEngine()" name="searchbarLink">Mozilla Searchbar</a>
@@ -105,7 +105,7 @@
    <div class="buttons">
 
     <fieldset>
-     <legend>Link the Planet</legend> <code>&lt;a href="http://www.planet-pear.org/"&gt;Planet PEAR&lt;/a&gt;</code>
+     <legend>Link the Planet</legend> <code>&lt;a href="<?php echo PROJECT_URL; ?>"&gt;<?php echo PROJECT_NAME_HR; ?>&lt;/a&gt;</code>
     </fieldset>
    </div>
    <div class="menu">

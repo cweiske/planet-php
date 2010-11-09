@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <html>
  <head>
-  <title>Planet PEAR administration</title>
+  <title><?php echo PROJECT_NAME_HR; ?> administration</title>
  </head>
  <body>
 <h1>mi casa es su casa</h1>
